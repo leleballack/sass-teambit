@@ -10725,8 +10725,8 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Emanuele\Desktop\Boolean\firstapp\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Emanuele\Desktop\Boolean\firstapp\src\scss\app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! C:\Users\Emanuele\Desktop\Boolean\Exercises\10.06.19 TEAMBIT\firstapp\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Emanuele\Desktop\Boolean\Exercises\10.06.19 TEAMBIT\firstapp\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })

@@ -1,11 +1,11 @@
 %img_prop {
   height: 100px;
   width: 140px;
-  margin-top: 50px;
+  margin-top: $space_50;
   margin-bottom: 30px;
 }
 
-section {
+section.main {
   width: 100%;
   background-color: $pink_colour;
 }
@@ -14,14 +14,14 @@ section {
   @extend %set_dimension;
   color: $text_colour;
   margin: 0 auto;
-  height: 800px;
+  height: $height_page + 100px;
   border-bottom: 1px solid grey;
 }
 
 .pink_two {
   @extend .pink;
   border: 0;
-  height: 850px;
+  height: $height_page + 150px;
 }
 
 .traditional {
@@ -29,7 +29,7 @@ section {
     @extend %h1;
     text-align: center;
     font-size: 23px;
-    margin: 50px auto;
+    margin: $space_50 auto;
   }
 
   .row {
@@ -74,7 +74,7 @@ section {
     height: inherit;
     width: inherit;
     max-width: 250px;
-    padding-top: 60px;
+    padding-top: $space_50 + 10px;
     padding-bottom: 30px;
     margin: 0 auto;
   }

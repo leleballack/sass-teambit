@@ -3,13 +3,16 @@ $height_80: 80px;
 $text_colour: #58402c;
 $button_colour: #30488f;
 $main_colour: white;
+$height_page: 700px;
 $pink_colour: #FFE7D2;
 $a_hover_colour: #0549b7;
+$space_50: 50px;
 
 
 @mixin button_style {
   color: $button_colour;
   cursor: pointer;
+  outline: none;
   height: 40px;
   background-color: $main_colour;
   border: 1px solid $button_colour;

@@ -9,6 +9,7 @@ nav {
   width: 10%;
   float: left;
   height: $height_80;
+
   .logo {
     background-repeat: no-repeat;
     line-height: 100px;
@@ -26,7 +27,6 @@ nav {
     line-height: $height_80;
   }
 
-
   & ul li {
     display: inline-block;
   }
@@ -36,33 +36,24 @@ nav {
   }
 
   & a {
-    text-decoration: none;
-    color: $text_colour;
-    font-weight: bold;
-    font-size: 13px;
+    @include a_style;
     margin-right: 40px;
   }
 
   & a:hover {
-    color: #0549b7;
+    color: $a_hover_colour;
   }
-
 
   &:last-child {
     margin: 0;
   }
 
   & button {
-    color: $button_colour;
-    cursor: pointer;
-    height: 40px;
-    background-color: $main_colour;
-    border: 1px solid $button_colour;
-    border-radius: 10px;
-    font-weight: bold;
-      i {
-        margin-right: 10px;
-      }
+    @include button_style;
+
+    i {
+      margin-right: 10px;
+    }
   }
 
   & button:hover {

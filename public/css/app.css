@@ -137,15 +137,32 @@ table {
 nav,
 header,
 .header_right,
-.header_left {
+.header_left,
+section {
   font-family: helvetica, sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.pink,
+.pink_two,
+header,
+.header_right,
+.header_left,
+.navbar {
+  width: 85%;
+  margin: 0 auto;
 }
 
 nav {
-  max-width: 85%;
-  margin: 0 auto;
-  border-bottom: 1px solid grey;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.navbar {
   height: 80px;
+  border-bottom: 1px solid grey;
 }
 
 .nav_left {
@@ -160,7 +177,6 @@ nav {
 }
 
 .nav_right {
-  width: 40%;
   float: right;
   height: 80px;
   display: flex;
@@ -217,23 +233,24 @@ nav {
 header,
 .header_right,
 .header_left {
-  width: 85%;
   color: #58402c;
-  height: 600px;
+  height: 700px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
-.header_left {
-  width: 45%;
-  float: left;
-}
-
+.traditional h1,
 .header_left h1 {
   font-size: 45px;
   font-weight: bold;
   line-height: 1.4;
   margin-top: 100px;
   margin-bottom: 30px;
+}
+
+.header_left {
+  width: 45%;
+  float: left;
 }
 
 .header_left h3 {
@@ -294,5 +311,75 @@ header,
 .header_right img {
   max-width: 500px;
   margin-top: 100px;
+}
+
+.rabbit img,
+.traditional .figure img {
+  height: 100px;
+  width: 140px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+section {
+  width: 100%;
+  background-color: #FFE7D2;
+}
+
+.pink,
+.pink_two {
+  color: #58402c;
+  margin: 0 auto;
+  height: 800px;
+  border-bottom: 1px solid grey;
+}
+
+.pink_two {
+  border: 0;
+  height: 850px;
+}
+
+.traditional h1 {
+  text-align: center;
+  font-size: 23px;
+  margin: 50px auto;
+}
+
+.traditional .row {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.traditional .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.traditional .column h3 {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.traditional .figure {
+  height: 200px;
+  padding: 0 60px;
+}
+
+.figure.cat img {
+  width: 60px;
+  height: 100px;
+}
+
+.rabbit img {
+  height: inherit;
+  width: inherit;
+  max-width: 250px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin: 0 auto;
 }
 

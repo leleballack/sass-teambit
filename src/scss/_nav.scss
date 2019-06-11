@@ -1,10 +1,18 @@
-nav {
-  max-width: $width_85;
+%set_dimension {
+  width: $width_85;
   margin: 0 auto;
-  border-bottom: 1px solid grey;
-  height: $height_80;
 }
 
+nav {
+ width: 100%;
+ position: fixed;
+ background-color: $main_colour;
+}
+.navbar {
+  @extend %set_dimension;
+  height: $height_80;
+  border-bottom: 1px solid grey;
+}
 .nav_left {
   width: 10%;
   float: left;
@@ -17,7 +25,6 @@ nav {
 }
 
 .nav_right {
-  width: 40%;
   float: right;
   height: $height_80;
   display: flex;

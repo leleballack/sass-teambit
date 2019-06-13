@@ -5,9 +5,13 @@
   margin-bottom: 30px;
 }
 
-section.main {
+%section_prop {
   width: 100%;
   background-color: $pink_colour;
+}
+
+section.main {
+  @extend %section_prop;
 }
 
 .pink {

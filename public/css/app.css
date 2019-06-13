@@ -145,6 +145,7 @@ section {
 }
 
 .pink,
+.pink_three,
 .pink_two,
 header,
 .header_right,
@@ -258,6 +259,15 @@ header,
   font-size: 22px;
 }
 
+.buttons_end,
+.header_left .buttons {
+  width: 75%;
+  display: flex;
+  line-height: 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 .header_left {
   width: 45%;
   float: left;
@@ -273,14 +283,6 @@ header,
 
 .header_left a:hover {
   color: #0549b7;
-}
-
-.header_left .buttons {
-  width: 75%;
-  display: flex;
-  line-height: 40px;
-  justify-content: space-between;
-  margin-bottom: 20px;
 }
 
 .header_left .buttons button {
@@ -326,12 +328,14 @@ header,
   margin-bottom: 30px;
 }
 
+section.prefooter,
 section.main {
   width: 100%;
   background-color: #FFE7D2;
 }
 
 .pink,
+.pink_three,
 .pink_two {
   color: #58402c;
   margin: 0 auto;
@@ -458,5 +462,95 @@ section.core {
   text-decoration: none;
   color: #30488f;
   font-size: 18px;
+}
+
+.pink_three {
+  height: 850px;
+}
+
+.traditional h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.column i {
+  text-align: left;
+  color: #30488f;
+}
+
+.column a {
+  text-decoration: none;
+  color: #58402c;
+  font-weight: bold;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.column a:hover {
+  color: #0549b7;
+}
+
+.text_box {
+  background-color: white;
+  border: 1px solid grey;
+  font-size: 17px;
+  border-radius: 7px;
+  max-width: 600px;
+  text-align: left;
+  padding: 30px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.text_box p {
+  padding-bottom: 20px;
+}
+
+.text_box img {
+  max-width: 38px;
+  float: left;
+  padding-right: 15px;
+}
+
+.text_box #names {
+  font-size: 15px;
+  color: #30488f;
+  line-height: 1.4;
+}
+
+.text_box #jobs {
+  font-size: 12px;
+}
+
+.buttons_end {
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.buttons_end button {
+  color: #30488f;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #30488f;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #30488f;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.buttons_end button:hover {
+  background-color: #021d47;
+}
+
+.buttons_end button i {
+  color: white;
+  padding-right: 5px;
 }
 

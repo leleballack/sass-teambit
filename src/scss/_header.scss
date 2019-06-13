@@ -19,6 +19,14 @@ header {
   font-size: 22px;
 }
 
+%google_slack {
+  width: 75%;
+  display: flex;
+  line-height: 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 .header_left {
   @extend header;
   width: 45%;
@@ -42,11 +50,7 @@ header {
   }
 
   .buttons {
-    width: 75%;
-    display: flex;
-    line-height: 40px;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    @extend %google_slack;
 
     button {
       @include button_style;

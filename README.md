@@ -1,4 +1,4 @@
-# Teambit.io Layout Replica
+# Teambit.io: Entire Website Layout Replica
 
 ## (with Sass)
 <br>
